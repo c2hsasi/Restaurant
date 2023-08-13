@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Source+Sans+3:wght@400;700&display=swap');
+
+/* >>>>>>>>     HEADER    >>>>>>>*/
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+}
+
+.navbar .navbar-brand {
+    font-family: Qwigley;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFB30E;
+}
+
+.navbar-brand:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.current {
+    font-weight: 500;
+}
+
+#navbarSupportedContent:hover {
+    border: 3px solid #0e8ac4;
+}
+
+.nav-item a:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+.me-2:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+.search {
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.person {
+    position: relative;
+    font-size: x-large;
+}
+
+.log {
+    color: #FFB800;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+}
+
+.pickup {
+    margin-top: -40px;
+}
+
+.nav-item,
+.me-2 {
+    font-weight: 700;
+}
+
+/* >>>>>>>>    TWO   >>>>>>>*/
+
+#containerDiv {
+    height: 632px;
+    background-color: #FDBE35;
+}
+
+#content {
+    padding: 60px;
+}
+
+.btn:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#containerDiv h1 {
+    font-family: Qwigley;
+    font-size: 80px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#containerDiv h1:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+
+}
+
+#containerDiv h4 {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    line-height: 100px;
+    margin-top: -40px;
+}
+
+#containerDiv h4:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+
+}
+
+#bar1:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#bar1 {
+    padding: 20px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 20px;
+}
+
+#bar2:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#bar2 {
+    padding: 25px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.form {
+    width: 75%;
+    height: 60px;
+}
+
+.b2 {
+    background-color: #F17228;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+}
+
+.geo {
+    position: relative;
+    left: 50px;
+    display: flex;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: -50px;
+    font-size: x-large;
+}
+
+.search1 {
+    position: relative;
+}
+
+.b1 {
+    color: #F17228;
+    font-weight: 700;
+    background-color: #F1722833;
+    margin-bottom: 3rem;
+}
+
+.b3 {
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.col-md-4 {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 800px;
+}
+
+.col-md-4 :hover {
+    border: 3px solid #0e8ac4;
+}
+
+/* >>>>>>>>    THREE   >>>>>>>*/
+
+.one {
+    margin-top: 100px;
+}
+
+#item1 h5 {
+    padding: 1em;
+}
+
+#item1 img:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#item1 h5:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+/* >>>>>>>>   FOUR   >>>>>>>*/
+
+#item2 h2 {
+    text-align: center;
+    color: #F17228;
+    font-weight: 700;
+    padding-bottom: 80px;
+    padding-top: 150px;
+}
+
+#item2 h2:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.two {
+    width: 1000px;
+    box-shadow: 5px 5px 5px 10px #edbea323;
+    padding: 20px;
+    margin-left: 250px;
+    padding-left: 100px;
+}
+
+.two:hover {
+    border: 3px solid #0e8ac4;
+}
+
+.two img:hover {
+    border: 3px solid #0e8ac4;
+}
+
+.v1 {
+    font-weight: 900;
+    width: 80px;
+    font-size: 16.5px;
+    margin-top: -80px;
+    margin-left: 120px;
+    background-image: linear-gradient(#FB3C00 -50%, #FFB800 160%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.v1:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.v2 {
+
+    border-right: 3px solid rgb(199, 209, 199);
+    height: 80px;
+    margin-top: -60px;
+    margin-right: 10px;
+}
+
+.v2:hover {
+    border-right: 3px solid #0e8ac4;
+}
+
+/* >>>>>>>>    FIVE   >>>>>>>*/
+
+.three {
+    background-color: #c9c4c433;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+}
+
+.three h3 {
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.three h3:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+#item6 h5 {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left: -2em;
+    font-weight: 700;
+}
+
+#item6 h5:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+#item6 img:hover {
+    border: 3px solid #0e8ac4;
+}
+
+/* >>>>>>>>    SIX   >>>>>>>*/
+
+#item7 {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 70px;
+    align-items: center;
+}
+
+.best {
+    padding-bottom: 60px;
+}
+
+.best:hover {
+    border: 3px solid #0e8ac4;
+}
+
+.best h2 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.best h2:hover {
+    border-top: 3px dotted #0e8ac4;
+    border-bottom: 3px dotted #0e8ac4;
+}
+
+.best p {
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.best p:hover {
+    border-top: 3px dotted #0e8ac4;
+    border-bottom: 3px dotted #0e8ac4;
+}
+
+#item7 img:hover {
+    border: 3px solid #0e8ac4;
+}
+
+/* >>>>>>>>    SEVEN   >>>>>>>*/
+
+.four {
+    margin-top: 100px;
+}
+
+.four h3 {
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.four h3:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.four h6:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.four img:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#item8 h6 {
+    text-align: center;
+    margin-top: 1.5em;
+    font-weight: 700;
+}
+
+#item8 .btn {
+    padding: 20px 75px 20px 75px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 14px 32px 0px #ef3405e0;
+    color: #FFFFFF;
+    background-color: #F17228;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+/* >>>>>>>>    EIGHT  >>>>>>>*/
+
+#item9 {
+    margin-top: -5em;
+    line-height: 2em;
+}
+
+#item9 h5 {
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 3em;
+}
+
+#footer {
+    background-color: #090D12;
+    color: #FFFFFF;
+    padding: 5rem;
+    padding-bottom: .1rem;
+    margin-top: 60px;
+}
+
+.logo {
+    fill: #cfb9b998;
+}
+
+#logo {
+    column-gap: 10px;
+    margin-left: -15px;
+    fill: #cfb9b998;
+}
+
+.enev {
+    position: absolute;
+    font-size: x-large;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.btn-warning.glow-button {
+    background-color: #FFB800;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 14px 32px 0px #FFB20E4A;
+}
+
+.py-5 .col-2:hover {
+    border: 3px solid #0e8ac4;
+}
+
+.py-5 ul:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+.py-5 h5:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+.follow {
+    padding: 20px;
+}
+
+.follow h3:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.logo:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+#logo:hover {
+    border: 3px solid #0e8ac4;
+    width: 160px;
+}
+
+form h6 {
+    margin-bottom: 30px;
+}
+
+form h6:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+#newsletter1 {
+    background-color: #645757ed;
+}
+
+#newsletter1::placeholder {
+    color: rgb(243, 234, 234);
+}
+
+#newsletter1:hover {
+    border: 3px solid #0e8ac4;
+}
+
+#newsletter1>placeholder:hover {
+    border: 3px dotted #0e8ac4;
+}
+
+.rights p:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
+
+.heart {
+    margin-right: -900px;
+}
+
+.heart:hover {
+    text-decoration: 3px solid underline;
+    text-decoration-color: #0e8ac4;
+}
